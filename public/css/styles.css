@@ -10,7 +10,7 @@ html {
     font-size: 16px;
 }
 
-input {
+input, select {
     font-size: 14px;
 }
 
@@ -31,7 +31,7 @@ label {
     color: #777;
 }
 
-input {
+input, select {
     border: 1px solid #c0c0c0;
     padding: 12px;
     outline: none;
@@ -53,7 +53,7 @@ button:hover {
 
 button:disabled {
     cursor: wait;
-    background: #7c5cbf94;
+    background: #EFEFEF;
 }
 
 /* Join Page Styles */
@@ -78,7 +78,7 @@ button:disabled {
     width: 100%;
 }
 
-.centered-form input {
+.centered-form input, .centered-form select {
     margin-bottom: 16px;
     width: 100%;
 }
